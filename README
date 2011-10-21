@@ -1,0 +1,5 @@
+TreePlot.py
+by Lars Otten <lotten@ics.uci.edu>, 2011
+
+Simple python script to plot a tree structure from a
+simple string representation. Generates svg output.
