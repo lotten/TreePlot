@@ -285,7 +285,7 @@ class StyleBuilder:
         self.style_dict["text-anchor"] = textanchor
 
     def setAlignBaseline(self, alignbaseline):
-	self.style_dict["alignment-baseline"] = alignbaseline
+        self.style_dict["alignment-baseline"] = alignbaseline
 
     #def getStyleDict(self):
     #      return self.style_dict
