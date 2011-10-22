@@ -26,6 +26,10 @@ See more examples (and their output) in the example/ folder.
 NODE_RADIUS = 20
 NODE_DIST_X = 50
 NODE_DIST_Y = 60
+# Node fill color
+NODE_FILL = "#b0b0b0"
+# Line width for plotting
+LINE_WIDTH = 2
 
 
 import sys
@@ -143,13 +147,18 @@ class TreePlotter:
     self.plot = svg()
 
     self.builder = ShapeBuilder()
+    self.style_node = StyleBuilder()
+    self.style_node.setFilling(NODE_FILL)
+    self.style_node.setStroke("black")
+    self.style_node.setStrokeWidth(LINE_WIDTH)
+
     self.style_text = StyleBuilder()
     self.style_text.setTextAnchor("middle")
     self.style_text.setDominantBaseline("central")
 
     self.style_line = StyleBuilder()
     self.style_line.setStroke("black")
-    self.style_line.setStrokeWidth(1)
+    self.style_line.setStrokeWidth(LINE_WIDTH)
     
   def plotNode(self, node):
     """Adds a single node to the plot, incl. connection to parent."""
@@ -162,8 +171,9 @@ class TreePlotter:
     node.pos_y = pos_y
 
     # Actual node (circle)
-    self.plot.addElement(self.builder.createCircle(
-        pos_x, pos_y, NODE_RADIUS))
+    circle = self.builder.createCircle(pos_x, pos_y, NODE_RADIUS)
+    circle.set_style(self.style_node.getStyle())
+    self.plot.addElement(circle)
 
     # Node label
     T = text(node.label, pos_x, pos_y)
@@ -195,7 +205,8 @@ def plot(filename):
   plotter = TreePlotter()
   plotter.plotTree(tree)
 
-  print plotter.plot.getXML()
+  # For debugging:
+  #print plotter.plot.getXML()
   plotter.plot.save(filename + ".svg")
 
 

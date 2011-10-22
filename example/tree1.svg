@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"  >
-<circle cy="30.0" cx="50.0" r="20" style="stroke:black; stroke-width:1; fill:none; "  />
+<circle cy="30.0" cx="50.0" r="20" style="stroke:black; stroke-width:2; fill:#b0b0b0; "  />
 <text style="dominant-baseline:central; text-anchor:middle; " y="30.0" x="50.0"  >
 0</text>
-<circle cy="90.0" cx="50.0" r="20" style="stroke:black; stroke-width:1; fill:none; "  />
+<circle cy="90.0" cx="50.0" r="20" style="stroke:black; stroke-width:2; fill:#b0b0b0; "  />
 <text style="dominant-baseline:central; text-anchor:middle; " y="90.0" x="50.0"  >
 1</text>
-<line y1="50.0" x2="50.0" style="stroke:black; stroke-width:1; " x1="50.0" y2="70.0"  />
-<circle cy="150.0" cx="25.0" r="20" style="stroke:black; stroke-width:1; fill:none; "  />
+<line y1="50.0" x2="50.0" style="stroke:black; stroke-width:2; " x1="50.0" y2="70.0"  />
+<circle cy="150.0" cx="25.0" r="20" style="stroke:black; stroke-width:2; fill:#b0b0b0; "  />
 <text style="dominant-baseline:central; text-anchor:middle; " y="150.0" x="25.0"  >
 2</text>
-<line y1="110.0" x2="25.0" style="stroke:black; stroke-width:1; " x1="50.0" y2="130.0"  />
-<circle cy="150.0" cx="75.0" r="20" style="stroke:black; stroke-width:1; fill:none; "  />
+<line y1="110.0" x2="25.0" style="stroke:black; stroke-width:2; " x1="50.0" y2="130.0"  />
+<circle cy="150.0" cx="75.0" r="20" style="stroke:black; stroke-width:2; fill:#b0b0b0; "  />
 <text style="dominant-baseline:central; text-anchor:middle; " y="150.0" x="75.0"  >
 3</text>
-<line y1="110.0" x2="75.0" style="stroke:black; stroke-width:1; " x1="50.0" y2="130.0"  />
+<line y1="110.0" x2="75.0" style="stroke:black; stroke-width:2; " x1="50.0" y2="130.0"  />
 </svg>
