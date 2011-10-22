@@ -145,7 +145,7 @@ class TreePlotter:
     self.builder = ShapeBuilder()
     self.style_text = StyleBuilder()
     self.style_text.setTextAnchor("middle")
-    self.style_text.setAlignBaseline("central")
+    self.style_text.setDominantBaseline("central")
 
     self.style_line = StyleBuilder()
     self.style_line.setStroke("black")

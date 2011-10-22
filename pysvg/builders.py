@@ -287,6 +287,9 @@ class StyleBuilder:
     def setAlignBaseline(self, alignbaseline):
         self.style_dict["alignment-baseline"] = alignbaseline
 
+    def setDominantBaseline(self, dominantbaseline):
+        self.style_dict["dominant-baseline"] = dominantbaseline
+
     #def getStyleDict(self):
     #      return self.style_dict
 

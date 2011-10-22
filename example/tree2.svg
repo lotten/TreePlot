@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"  >
 <circle cy="30.0" cx="50.0" r="20" style="stroke:black; stroke-width:1; fill:none; "  />
-<text style="text-anchor:middle; alignment-baseline:central; " y="30.0" x="50.0"  >
+<text style="dominant-baseline:central; text-anchor:middle; " y="30.0" x="50.0"  >
 6</text>
 <circle cy="90.0" cx="50.0" r="20" style="stroke:black; stroke-width:1; fill:none; "  />
-<text style="text-anchor:middle; alignment-baseline:central; " y="90.0" x="50.0"  >
+<text style="dominant-baseline:central; text-anchor:middle; " y="90.0" x="50.0"  >
 2</text>
 <line y1="50.0" x2="50.0" style="stroke:black; stroke-width:1; " x1="50.0" y2="70.0"  />
 <circle cy="150.0" cx="50.0" r="20" style="stroke:black; stroke-width:1; fill:none; "  />
-<text style="text-anchor:middle; alignment-baseline:central; " y="150.0" x="50.0"  >
+<text style="dominant-baseline:central; text-anchor:middle; " y="150.0" x="50.0"  >
 3</text>
 <line y1="110.0" x2="50.0" style="stroke:black; stroke-width:1; " x1="50.0" y2="130.0"  />
 <circle cy="210.0" cx="25.0" r="20" style="stroke:black; stroke-width:1; fill:none; "  />
-<text style="text-anchor:middle; alignment-baseline:central; " y="210.0" x="25.0"  >
+<text style="dominant-baseline:central; text-anchor:middle; " y="210.0" x="25.0"  >
 0</text>
 <line y1="170.0" x2="25.0" style="stroke:black; stroke-width:1; " x1="50.0" y2="190.0"  />
 <circle cy="270.0" cx="25.0" r="20" style="stroke:black; stroke-width:1; fill:none; "  />
-<text style="text-anchor:middle; alignment-baseline:central; " y="270.0" x="25.0"  >
+<text style="dominant-baseline:central; text-anchor:middle; " y="270.0" x="25.0"  >
 1</text>
 <line y1="230.0" x2="25.0" style="stroke:black; stroke-width:1; " x1="25.0" y2="250.0"  />
 <circle cy="210.0" cx="75.0" r="20" style="stroke:black; stroke-width:1; fill:none; "  />
-<text style="text-anchor:middle; alignment-baseline:central; " y="210.0" x="75.0"  >
+<text style="dominant-baseline:central; text-anchor:middle; " y="210.0" x="75.0"  >
 4</text>
 <line y1="170.0" x2="75.0" style="stroke:black; stroke-width:1; " x1="50.0" y2="190.0"  />
 <circle cy="270.0" cx="75.0" r="20" style="stroke:black; stroke-width:1; fill:none; "  />
-<text style="text-anchor:middle; alignment-baseline:central; " y="270.0" x="75.0"  >
+<text style="dominant-baseline:central; text-anchor:middle; " y="270.0" x="75.0"  >
 5</text>
 <line y1="230.0" x2="75.0" style="stroke:black; stroke-width:1; " x1="75.0" y2="250.0"  />
 </svg>
