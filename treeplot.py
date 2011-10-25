@@ -1,12 +1,13 @@
 #!/usr/bin/python
-""" TreePlot.py
+"""
+treeplot.py
 by Lars Otten <lotten@ics.uci.edu>, 2011
 
-Python script that plots a tree from a simple string representation
-and outputs it to a SVG file. The output file name is the same as the
-input with .svg attached.
+Python script that plots a labeled tree from a simple string
+representation and outputs it to a SVG file. The output file name is
+the same as the input with .svg attached.
 
-The input file should follow the following simple grammar:
+The input file should follow this simple grammar:
   T = ( <label> T* )
 
 For instance:
@@ -20,6 +21,30 @@ corresponds to this tree:
 2   3
 
 See more examples (and their output) in the example/ folder.
+
+--------------------------
+Licensed under MIT License
+
+Copyright (c) 2011 by Lars Otten
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """
 
 # Sets the radius and horizontal/vertical node distance for plotting.
